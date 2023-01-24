@@ -1,0 +1,21 @@
+model 
+route
+controller
+
+creating a server-npm i express
+create an index.js
+command const express=require('express')
+const app=express();
+app.get('/',(req,res)=>res.send('Hello World')) get any data
+
+app.listen(port,()=>console.log(`App listening the port ${port}`))
+
+create a folder models:This is associated with database
+create a folder named routes:this is associated with route of ex:/,'login etc
+create a folder named controller :this is the brain of entire application
+
+mongoose:object modeling for node js
+schema:cretaing a schema
+
+
+n cryptography, a salt is random data that is used as an additional input to a one-way function that hashes data, a password or passphrase.[1] Salts are used to safeguard passwords in storage
