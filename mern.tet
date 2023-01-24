@@ -18,4 +18,13 @@ mongoose:object modeling for node js
 schema:cretaing a schema
 
 
-n cryptography, a salt is random data that is used as an additional input to a one-way function that hashes data, a password or passphrase.[1] Salts are used to safeguard passwords in storage
+In cryptography, a salt is random data that is used as an additional
+ input to a one-way function that hashes data, a password or passphrase.[1] 
+ Salts are used to safeguard passwords in storage
+Virtuals:Virtuals are document properties that you can
+ get and set but that do not get persisted to MongoDB. The getters are useful 
+ for formatting or combining fields, while setters are useful for de-composing
+  a single value into multiple values for storage.
+
+
+  create schema methoda
